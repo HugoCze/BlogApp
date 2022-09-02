@@ -4,4 +4,3 @@ from First_Clone_App.models import Post, Comment
 
 admin.site.register(Post)
 admin.site.register(Comment)
-

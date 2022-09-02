@@ -1,5 +1,7 @@
 from django import forms
 from First_Clone_App.models import Post, Comment
+from django import forms
+from django.contrib.auth.forms import AuthenticationForm
 
 
 class PostForm(forms.ModelForm):
