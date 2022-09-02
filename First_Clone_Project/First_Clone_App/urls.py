@@ -1,6 +1,7 @@
-from django.conf.urls import url
+# from django.conf.urls import url
+from django.urls import re_path as url
 from First_Clone_App import views
-from First_Clone_Project.First_Clone_App.views import post_publish
+from First_Clone_App.views import post_publish
 
 urlpatterns = [
     url(r'^$', views.PostListView.as_view(), name='post_list'),
